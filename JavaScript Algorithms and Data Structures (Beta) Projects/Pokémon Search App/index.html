@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéDex 3000</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="pokedex">
+        <h1>PokéDex 3000</h1>
+        <div id="search-container">
+            <input type="text" id="search-input" required placeholder="Enter Pokémon name or ID">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="pokemon-info">
+            <h2 id="pokemon-name"></h2>
+            <p id="pokemon-id"></p>
+            <div id="sprite-container">
+                <img id="sprite" src="" alt="Pokémon sprite">
+            </div>
+            <p id="weight"></p>
+            <p id="height"></p>
+            <div id="types"></div>
+            <h3>Stats:</h3>
+            <div class="stat-bar">
+                <div class="stat-bar-fill" id="hp-bar"></div>
+                <div class="stat-bar-text">HP: <span id="hp"></span></div>
+            </div>
+            <div class="stat-bar">
+                <div class="stat-bar-fill" id="attack-bar"></div>
+                <div class="stat-bar-text">Attack: <span id="attack"></span></div>
+            </div>
+            <div class="stat-bar">
+                <div class="stat-bar-fill" id="defense-bar"></div>
+                <div class="stat-bar-text">Defense: <span id="defense"></span></div>
+            </div>
+            <div class="stat-bar">
+                <div class="stat-bar-fill" id="special-attack-bar"></div>
+                <div class="stat-bar-text">Sp. Atk: <span id="special-attack"></span></div>
+            </div>
+            <div class="stat-bar">
+                <div class="stat-bar-fill" id="special-defense-bar"></div>
+                <div class="stat-bar-text">Sp. Def: <span id="special-defense"></span></div>
+            </div>
+            <div class="stat-bar">
+                <div class="stat-bar-fill" id="speed-bar"></div>
+                <div class="stat-bar-text">Speed: <span id="speed"></span></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
