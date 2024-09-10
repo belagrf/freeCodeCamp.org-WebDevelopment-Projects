@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="register-container">
+      <!-- Header with Title -->
+      <header class="register-header">
+        <h1>Cash Register</h1>
+      </header>
+
+      <!-- Display screen for price and change -->
+      <section class="display-screen">
+        <p id="price-screen" class="price-screen">Total: $3.26</p>
+        <div id="change-due" class="change-due">Change Due: $0.00</div>
+      </section>
+
+      <!-- Input area for cash entry and action button -->
+      <section class="input-area">
+        <input id="cash" type="number" placeholder="Enter amount" step="0.01" min="0">
+      </section>
+
+      <!-- Keypad for numerical input -->
+      <section class="keypad">
+        <button class="key" type="button" value="1">1</button>
+        <button class="key" type="button" value="2">2</button>
+        <button class="key" type="button" value="3">3</button>
+        <button class="key" type="button" value="4">4</button>
+        <button class="key" type="button" value="5">5</button>
+        <button class="key" type="button" value="6">6</button>
+        <button class="key" type="button" value="7">7</button>
+        <button class="key" type="button" value="8">8</button>
+        <button class="key" type="button" value="9">9</button>
+        <button class="key" type="button" value="0">0</button>
+        <button class="key clear" type="button">Clear</button>
+        <button class="key enter" type="button" id="purchase-btn">Enter</button>
+      </section>
+
+      <!-- Cash drawer display -->
+      <section class="cash-drawer">
+        <h2>Cash Drawer</h2>
+        <ul class="cash-list">
+          <li>Pennies: <span id="penny-amount"></span></li>
+          <li>Nickels: <span id="nickel-amount"></span></li>
+          <li>Dimes: <span id="dime-amount"></span></li>
+          <li>Quarters: <span id="quarter-amount"></span></li>
+          <li>Ones: <span id="one-amount"></span></li>
+          <li>Fives: <span id="five-amount"></span></li>
+          <li>Tens: <span id="ten-amount"></span></li>
+          <li>Twenties: <span id="twenty-amount"></span></li>
+          <li>Hundreds: <span id="one hundred-amount"></span></li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+      <footer class="register-footer">
+        <p>Developed by Belgrf</p>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
