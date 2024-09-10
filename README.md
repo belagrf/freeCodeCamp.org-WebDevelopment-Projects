@@ -1,5 +1,5 @@
 # freeCodeCamp.org-WebDevelopment-Projects
 [Preview](https://belagrf.github.io/freeCodeCamp.org-WebDevelopment-Projects/)
-Projects of the zertifizrungs kurse @[freeCodeCamp.org](https://www.freecodecamp.org/learn):
+Projects of the certification courses @[freeCodeCamp.org](https://www.freecodecamp.org/learn):
 - [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 - [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) 
