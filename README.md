@@ -5,3 +5,5 @@ Projects of the certification courses @[freeCodeCamp.org](https://www.freecodeca
 
 Github Pages Preview:
 [Preview](https://belagrf.github.io/freeCodeCamp.org-WebDevelopment-Projects/)
+
+**⚠️Some designs and content were refined with the help of AI after the initial requirements had already been completed – mainly due to my perfectionism. In hindsight, that might not have been the smartest decision.⚠️**
